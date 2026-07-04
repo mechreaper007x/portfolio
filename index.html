@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Primary Meta Tags -->
+  <title>Savyasachi Mishra | Full-Stack Software Engineer</title>
+  <meta name="title" content="Savyasachi Mishra | Full-Stack Software Engineer">
+  <meta name="description" content="Computer Science B.Tech graduate building scalable backend systems and full-stack applications with Java, Spring Boot, and modern web technologies.">
+  <meta name="keywords" content="Savyasachi Mishra, Software Engineer, Java Developer, Spring Boot, Full-Stack, GNIOT, GGSIPU, portfolio, backend developer">
+  <meta name="author" content="Savyasachi Mishra">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://savyasachi.dev/"> <!-- Replace with your actual domain when deployed -->
+  <meta property="og:title" content="Savyasachi Mishra | Full-Stack Software Engineer">
+  <meta property="og:description" content="Computer Science B.Tech graduate building scalable backend systems and full-stack applications with Java, Spring Boot, and modern web technologies.">
+  <meta property="og:image" content="https://savyasachi.dev/og-image.png"> <!-- Replace with your actual OG image link -->
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:title" content="Savyasachi Mishra | Full-Stack Software Engineer">
+  <meta property="twitter:description" content="Computer Science B.Tech graduate building scalable backend systems and full-stack applications with Java, Spring Boot, and modern web technologies.">
+
+  <!-- Google Fonts: Lora (Headings) & Inter (Body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Lora:ital,wght@0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+
+  <!-- Embedded SVG Favicon (No external asset file needed) -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90' font-family='serif' fill='%231a3644'%3ES%3C/text%3E%3C/svg%3E">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Navigation Header -->
+  <header class="header">
+    <div class="container header-container">
+      <a href="#hero" class="logo" aria-label="Savyasachi Mishra Home">Savyasachi.</a>
+      
+      <!-- Mobile Menu Toggle Button (Visible on Mobile) -->
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle Menu" aria-controls="primary-nav" aria-expanded="false">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+
+      <nav class="nav" id="primary-nav">
+        <ul class="nav-list">
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#experience" class="nav-link">Experience</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#education" class="nav-link">Education</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+      <div class="container hero-container">
+        <h1 class="hero-title">Savyasachi Mishra</h1>
+        <p class="hero-tagline">
+          Computer Science B.Tech graduate (GNIOT, GGSIPU) building scalable backend systems and full-stack applications with Java, Spring Boot, and modern web tech.
+        </p>
+        
+        <div class="hero-contact-links">
+          <button class="hero-contact-item" id="email-btn" title="Click to copy email">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+            <span>creatorsavya@gmail.com</span>
+            <span class="tooltip" id="email-tooltip">Click to copy</span>
+          </button>
+        </div>
+
+        <div class="hero-social-links">
+          <a href="https://github.com/mechreaper007x" target="_blank" rel="noopener noreferrer" class="btn-link">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+            GitHub
+          </a>
+          <a href="https://linkedin.com/in/savyasachi-mishra" target="_blank" rel="noopener noreferrer" class="btn-link">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+            LinkedIn
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section-padding section-border-top">
+      <div class="container">
+        <h2 class="section-title">About</h2>
+        <div class="about-content">
+          <p class="lead-text">
+            Building scalable, efficient, and reliable software using the Java ecosystem. Hands-on experience in Spring Boot application development, RESTful API design, and full-stack web development, with a strong focus on clean architecture and performance optimization.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section-padding section-border-top">
+      <div class="container">
+        <h2 class="section-title">Skills</h2>
+        <div class="skills-grid">
+          
+          <div class="skill-category">
+            <h3 class="skill-category-title">Languages</h3>
+            <ul class="skill-list">
+              <li>Java <span class="skill-detail">(Core &amp; Advanced)</span></li>
+              <li>JavaScript</li>
+              <li>SQL</li>
+            </ul>
+          </div>
+
+          <div class="skill-category">
+            <h3 class="skill-category-title">Frameworks</h3>
+            <ul class="skill-list">
+              <li>Spring Boot</li>
+              <li>Hibernate</li>
+              <li>Spring Data JPA</li>
+            </ul>
+          </div>
+
+          <div class="skill-category">
+            <h3 class="skill-category-title">Web &amp; API</h3>
+            <ul class="skill-list">
+              <li>RESTful APIs</li>
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>WebSocket</li>
+            </ul>
+          </div>
+
+          <div class="skill-category">
+            <h3 class="skill-category-title">Databases</h3>
+            <ul class="skill-list">
+              <li>MySQL</li>
+              <li>MongoDB</li>
+              <li>H2</li>
+            </ul>
+          </div>
+
+          <div class="skill-category">
+            <h3 class="skill-category-title">Tools</h3>
+            <ul class="skill-list">
+              <li>Git &amp; GitHub</li>
+              <li>Maven</li>
+              <li>Postman</li>
+              <li>VS Code</li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section-padding section-border-top">
+      <div class="container">
+        <h2 class="section-title">Experience</h2>
+        <div class="experience-timeline">
+          
+          <!-- Experience Card 1 -->
+          <article class="experience-card">
+            <div class="experience-header">
+              <div>
+                <h3 class="experience-role">Software Engineering Intern</h3>
+                <p class="experience-company">Pravisht Digital</p>
+              </div>
+              <div class="experience-meta">
+                <span class="experience-date">Oct 2024 – Nov 2024</span>
+                <span class="experience-location">Delhi, India</span>
+              </div>
+            </div>
+            <div class="experience-description">
+              <p>
+                Developed scalable backend services and RESTful APIs using Spring Boot, integrating with MySQL and MongoDB databases. Authored clean, maintainable, and high-performance Java code in an agile, sprint-based workflow using Git, Maven, and Postman for API testing.
+              </p>
+            </div>
+          </article>
+
+          <!-- Experience Card 2 -->
+          <article class="experience-card">
+            <div class="experience-header">
+              <div>
+                <h3 class="experience-role">Internship Trainee</h3>
+                <p class="experience-company">Delhi Metro Rail Corporation (DMRC)</p>
+              </div>
+              <div class="experience-meta">
+                <span class="experience-date">Jun 2022 – Aug 2022</span>
+                <span class="experience-location">Delhi, India</span>
+              </div>
+            </div>
+            <div class="experience-description">
+              <p>
+                Analyzed operational data for critical HVAC, escalator, and elevator systems across three metro stations, producing a systems report used in internal performance reviews. Maintained strict compliance with industrial standards, ensuring zero safety incidents across the 8-week program.
+              </p>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section-padding section-border-top">
+      <div class="container">
+        <h2 class="section-title">Projects</h2>
+        <p class="section-subtitle">A collection of systems and tools I've built. Click details to view source code.</p>
+        
+        <div class="projects-grid">
+          
+          <!-- 
+            =========================================
+            PROJECT 1: Student Skill Tracker
+            To customize this project, edit the content below.
+            =========================================
+          -->
+          <article class="project-card">
+            <div class="project-content">
+              <h3 class="project-title">Student Skill Tracker</h3>
+              <div class="project-tags">
+                <span class="tag">Spring Boot</span>
+                <span class="tag">LangChain4j</span>
+                <span class="tag">WebSocket</span>
+              </div>
+              <p class="project-description">
+                AI-powered learning companion with SM-2 spaced repetition and real-time WebSocket coding duels. Research paper accepted at PTEMS-2026.
+              </p>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/mechreaper007x" target="_blank" rel="noopener noreferrer" class="project-link-item" aria-label="GitHub Repository for Student Skill Tracker">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                <span>Code</span>
+              </a>
+              <a href="#" class="project-link-item link-disabled" aria-label="Live demo unavailable">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                <span>Live Demo</span>
+              </a>
+            </div>
+          </article>
+
+          <!-- 
+            =========================================
+            PROJECT 2: Mood Journal
+            To customize this project, edit the content below.
+            =========================================
+          -->
+          <article class="project-card">
+            <div class="project-content">
+              <h3 class="project-title">Mood Journal</h3>
+              <div class="project-tags">
+                <span class="tag">Spring Boot</span>
+                <span class="tag">H2</span>
+                <span class="tag">REST API</span>
+              </div>
+              <p class="project-description">
+                Full-stack emotional well-being tracker with secure role-based CRUD architecture.
+              </p>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/mechreaper007x" target="_blank" rel="noopener noreferrer" class="project-link-item" aria-label="GitHub Repository for Mood Journal">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                <span>Code</span>
+              </a>
+              <a href="#" class="project-link-item link-disabled" aria-label="Live demo unavailable">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                <span>Live Demo</span>
+              </a>
+            </div>
+          </article>
+
+          <!-- 
+            =========================================
+            PROJECT 3: Clip.A.Canvas
+            To customize this project, edit the content below.
+            =========================================
+          -->
+          <article class="project-card">
+            <div class="project-content">
+              <h3 class="project-title">Clip.A.Canvas</h3>
+              <div class="project-tags">
+                <span class="tag">HTML5 Canvas</span>
+                <span class="tag">Playwright</span>
+                <span class="tag">FFmpeg</span>
+              </div>
+              <p class="project-description">
+                Open-source tool converting HTML/CSS/JS canvas animations into MP4 using headless browser frame capture.
+              </p>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/mechreaper007x" target="_blank" rel="noopener noreferrer" class="project-link-item" aria-label="GitHub Repository for Clip.A.Canvas">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                <span>Code</span>
+              </a>
+              <a href="#" class="project-link-item link-disabled" aria-label="Live demo unavailable">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                <span>Live Demo</span>
+              </a>
+            </div>
+          </article>
+
+          <!-- 
+            =========================================
+            PROJECT 4: Complaint Management System
+            To customize this project, edit the content below.
+            =========================================
+          -->
+          <article class="project-card">
+            <div class="project-content">
+              <h3 class="project-title">Complaint Management System</h3>
+              <div class="project-tags">
+                <span class="tag">Spring Boot</span>
+                <span class="tag">H2</span>
+                <span class="tag">MVC</span>
+              </div>
+              <p class="project-description">
+                Grievance redressal platform with full complaint lifecycle tracking.
+              </p>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/mechreaper007x" target="_blank" rel="noopener noreferrer" class="project-link-item" aria-label="GitHub Repository for Complaint Management System">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                <span>Code</span>
+              </a>
+              <a href="#" class="project-link-item link-disabled" aria-label="Live demo unavailable">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                <span>Live Demo</span>
+              </a>
+            </div>
+          </article>
+
+          <!-- 
+            =========================================
+            PROJECT 5: Govt-Job-Scraper
+            To customize this project, edit the content below.
+            =========================================
+          -->
+          <article class="project-card">
+            <div class="project-content">
+              <h3 class="project-title">Govt-Job-Scraper</h3>
+              <div class="project-tags">
+                <span class="tag">Python</span>
+                <span class="tag">Automation</span>
+              </div>
+              <p class="project-description">
+                Scraper monitoring 83+ government job portals with adaptive parsing and real-time Discord/email alerts.
+              </p>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/mechreaper007x" target="_blank" rel="noopener noreferrer" class="project-link-item" aria-label="GitHub Repository for Govt-Job-Scraper">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                <span>Code</span>
+              </a>
+              <a href="#" class="project-link-item link-disabled" aria-label="Live demo unavailable">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                <span>Live Demo</span>
+              </a>
+            </div>
+          </article>
+
+          <!-- 
+            =========================================
+            PROJECT 6: Placeholder / Future Project
+            To customize this project, replace the placeholder copy.
+            =========================================
+          -->
+          <article class="project-card project-placeholder">
+            <div class="project-content">
+              <h3 class="project-title">[Project Title]</h3>
+              <div class="project-tags">
+                <span class="tag">Tech Stack</span>
+                <span class="tag">Tags</span>
+              </div>
+              <p class="project-description">
+                This is a placeholder for your next great project. Edit index.html to add a description, tech tags, and code repository links.
+              </p>
+            </div>
+            <div class="project-links">
+              <a href="#" class="project-link-item link-disabled" aria-label="Project source code coming soon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                <span>Code</span>
+              </a>
+              <a href="#" class="project-link-item link-disabled" aria-label="Project live demo coming soon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                <span>Live Demo</span>
+              </a>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section-padding section-border-top">
+      <div class="container">
+        <h2 class="section-title">Education</h2>
+        <div class="education-list">
+          
+          <div class="education-item">
+            <div class="education-header">
+              <h3 class="education-degree">B.Tech, Computer Science &amp; Engineering</h3>
+              <span class="education-date">2023 – 2026 (Expected)</span>
+            </div>
+            <p class="education-institution">Greater Noida Institute of Technology (GNIOT) <span class="institution-meta">| GGSIPU Affiliated</span></p>
+          </div>
+
+          <div class="education-item">
+            <div class="education-header">
+              <h3 class="education-degree">Diploma, Mechanical Engineering</h3>
+              <span class="education-date">2020 – 2023</span>
+            </div>
+            <p class="education-institution">Delhi Skill and Entrepreneurship University</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer & Contact Section -->
+  <footer id="contact" class="footer">
+    <div class="container footer-container">
+      <div class="footer-cta">
+        <p class="footer-cta-text">Let's build something.</p>
+      </div>
+
+      <div class="footer-bottom">
+        <p class="copyright">&copy; 2026 Savyasachi Mishra. All rights reserved.</p>
+        <div class="footer-links">
+          <a href="mailto:creatorsavya@gmail.com" aria-label="Email Savyasachi Mishra">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+          </a>
+          <a href="https://github.com/mechreaper007x" target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+          </a>
+          <a href="https://linkedin.com/in/savyasachi-mishra" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Interactive Logic -->
+  <script src="script.js"></script>
+</body>
+</html>
